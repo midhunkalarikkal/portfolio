@@ -32,3 +32,41 @@ li:hover a
     background: #eee;
 }
 /*navbar end*/
+
+/*section one Home start*/
+.s1
+{
+    background: #969696;
+}
+.img-fluid
+{
+    width: 100%;
+    box-shadow: rgba(111, 111, 111,111) 0px 7px 29px 0px;
+}
+.s1name
+{
+    font-size: 25px;
+    width: 0ch;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 5s steps(16) infinite;
+    border-right: 3px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes text
+{
+    0%
+    {
+        width: 0ch;
+    }
+    50%
+    {
+        width: 17ch;
+    }
+}
+.s1st
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*section one Home end*/
