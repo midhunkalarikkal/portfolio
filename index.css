@@ -275,3 +275,19 @@ initially starting from 0*/
 }
 
 /*section four Contact end*/
+
+/*section five footer start*/
+footer
+{
+    height: 60px;
+    background-color: rgb(10, 11, 12);
+    margin-top: 50px;
+    color: #eee;
+}
+.footerh6
+{
+   text-align: center;
+   padding-top:20px;
+   font-size: 13px;
+}
+/*section five footer end*/
