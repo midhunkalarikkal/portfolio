@@ -45,25 +45,7 @@ li:hover a
 }
 .s1name
 {
-    font-size: 25px;
-    width: 0ch;
-    font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: text 5s steps(16) infinite;
-    border-right: 3px solid black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-@keyframes text
-{
-    0%
-    {
-        width: 0ch;
-    }
-    50%
-    {
-        width: 17ch;
-    }
 }
 .s1st
 {
