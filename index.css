@@ -70,3 +70,125 @@ li:hover a
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*section one Home end*/
+
+/*section two About start*/
+.s2
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/img17.jpg");
+    background-size: cover;
+}
+.s2h2
+{
+    font-size: 35px;
+    border-bottom: 1.5px solid #eee;
+    color: #eee;
+}
+.s2h2 span
+{
+    color: rgb(158, 255, 247);
+}
+.s2skills
+{
+    text-align: left;
+    text-decoration-line: underline;
+    color: #eee;
+    margin-top: 40px;
+}
+.s2 .row h3
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(158, 255, 247);
+    padding: 2px;
+}
+.s2 .row h3 span
+{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+.s2btn
+{
+    margin-top: 10px;
+    font-style: normal;
+    color: rgb(26, 22, 22);
+    padding: 2px;
+    border-radius: 10px;
+    background: #838383;
+    width: 150px;
+}
+.info1
+{
+    border: 2px solid rgb(158, 255, 247);
+    justify-content: center;
+    margin: 0 auto;
+    color: #eee;
+    font-size: 20px;
+}
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    height: 8px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 8px;
+    background-color: rgb(158, 255, 247);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.html {
+    width: 75%;
+}
+
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+/*section two About end*/
