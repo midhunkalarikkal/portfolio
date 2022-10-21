@@ -1,0 +1,270 @@
+/*Header*/
+
+.header
+{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-nav
+{
+  letter-spacing: 0.2em;
+  font-size: 1.2em;
+  padding: 0.3em;
+}
+.s1
+{
+  padding-top: 8em;
+}
+
+/*Profile*/
+
+.profile
+{
+  font-size: 2em;
+}
+.s11profile
+{
+  font-family:Comic Sans, Comic Sans MS, cursive;
+}
+.photos
+{
+  font-size: 2em;
+}
+.image-block {
+  border: 3px solid white ;
+  background-color: black;
+  padding: 0px;    
+  margin: 0px;
+  height:200px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.img2
+{
+  width: 80%;
+  height: 80%;
+  margin-left: 60px;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imgages/img2.jpg");
+}
+
+/*section two About start*/
+.s2
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/img17.jpg");
+    background-size: cover;
+}
+.s2h2
+{
+    font-size: 35px;
+    border-bottom: 1.5px solid #eee;
+    color: #eee;
+}
+.s2h2 span
+{
+    color: rgb(158, 255, 247);
+}
+.s2skills
+{
+    text-align: left;
+    text-decoration-line: underline;
+    color: #eee;
+    margin-top: 40px;
+}
+.s2 .row h3
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(158, 255, 247);
+    padding: 2px;
+}
+.s2 .row h3 span
+{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+.s2btn
+{
+    margin-top: 10px;
+    font-style: normal;
+    color: rgb(26, 22, 22);
+    padding: 2px;
+    border-radius: 10px;
+    background: #838383;
+    width: 150px;
+}
+.info1
+{
+    border: 2px solid rgb(158, 255, 247);
+    justify-content: center;
+    margin: 0 auto;
+    color: #eee;
+    font-size: 20px;
+}
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    height: 8px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 8px;
+    background-color: rgb(158, 255, 247);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.html {
+    width: 75%;
+}
+
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+/*section two About end*/
+
+/*section three Portfolio start*/
+.s3
+{
+    background-color: #000000;
+}
+.s3h1
+{
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    text-decoration: underline solid rgb(158, 255, 247);
+}
+.card
+{
+    background-color: black; 
+    border: 2px solid rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
+}
+/*section three Portfoilio end*/
+
+/*section four Contact start*/
+.s4
+{
+    background: #c2c2c2;
+}
+.s4h2
+{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: 4px underline solid aliceblue;
+}
+.box1
+{ 
+    box-shadow: rgba(15, 14, 14, 0.452) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    padding: 25px;
+    width: 80%; 
+    margin: 0 auto;
+}
+.form-group-label
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+.center
+{ 
+    text-align: center;
+}    
+.options
+{ 
+    margin-bottom: 2px; 
+}
+.s4 .btn 
+{ 
+    background-color: #a8a8a8; 
+    margin: auto; 
+    width: 150px; 
+    margin-top: 10px;
+    border: 2px solid #000000;
+}
+.box2
+{
+    position: relative; 
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.box2icons
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.s4 .contact-icon
+{
+    color: #000000;
+    padding: 10px;
+}
+.contact-list
+{
+    padding: 30px;
+}
+
+/*section four Contact end*/
+
+/*section five footer start*/
+.footer
+{
+    height: 60px;
+    background-color: rgb(10, 11, 12);
+    margin-top: 50px;
+    color: #eee;
+}
+.footerh6
+{
+   text-align: center;
+   padding-top:20px;
+   font-size: 13px;
+}
+/*section five footer end*/
